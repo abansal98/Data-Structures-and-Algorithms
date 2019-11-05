@@ -1,0 +1,89 @@
+Test depth()
+depth(18) = 0
+depth(8) = 1
+depth(28) = 1
+depth(4) = 2
+depth(10) = 2
+depth(20) = 2
+depth(34) = 2
+depth(2) = 3
+depth(6) = 3
+depth(14) = 3
+depth(24) = 3
+depth(32) = 3
+depth(36) = 3
+depth(12) = 4
+depth(16) = 4
+depth(22) = 4
+depth(26) = 4
+depth(30) = 4
+depth(38) = 4
+depth(1) = -1
+depth(5) = -1
+depth(7) = -1
+depth(11) = -1
+depth(13) = -1
+depth(19) = -1
+depth(21) = -1
+depth(25) = -1
+depth(40) = -1
+depth(31) = -1
+Test copy constructors: 
+testTree [ 0 ] was copied
+testTree [ 1 ] was copied
+testTree [ 2 ] was copied
+testTree [ 3 ] was copied
+testTree [ 4 ] was copied
+testTree [ 5 ] was copied
+testTree [ 6 ] was copied
+testTree [ 7 ] was copied
+testTree [ 8 ] was copied
+testTree [ 9 ] was copied
+testTree [ 10 ] was copied
+Test remove(): 
+Test 1 : remove(18) was correctly done.
+preOrder() :
+inOrder() :
+Test 2 : remove(18) was correctly done.
+preOrder() :8 
+inOrder() :8 
+Test 3 : remove(18) was correctly done.
+preOrder() :28 
+inOrder() :28 
+Test 4 : remove(2) was correctly done.
+preOrder() :18 8 4 6 10 14 12 16 28 20 24 22 26 34 32 30 36 38 
+inOrder() :4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 
+Test 5 : remove(32) was correctly done.
+preOrder() :18 8 4 2 6 10 14 12 16 28 20 24 22 26 34 30 36 38 
+inOrder() :2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 34 36 38 
+Test 6 : remove(36) was correctly done.
+preOrder() :18 8 4 2 6 10 14 12 16 28 20 24 22 26 34 32 30 38 
+inOrder() :2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 38 
+Test 7 : remove(10) was correctly done.
+preOrder() :18 8 4 2 6 14 12 16 28 20 24 22 26 34 32 30 36 38 
+inOrder() :2 4 6 8 12 14 16 18 20 22 24 26 28 30 32 34 36 38 
+Test 8 : remove(28) was correctly done.
+preOrder() :18 8 4 2 6 10 14 12 16 30 20 24 22 26 34 32 36 38 
+inOrder() :2 4 6 8 10 12 14 16 18 20 22 24 26 30 32 34 36 38 
+Test 9 : remove(4) was correctly done.
+preOrder() :18 8 6 2 10 14 12 16 28 20 24 22 26 34 32 30 36 38 
+inOrder() :2 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 
+Test 10 : remove(8) was correctly done.
+preOrder() :18 10 4 2 6 14 12 16 28 20 24 22 26 34 32 30 36 38 
+inOrder() :2 4 6 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 
+Test 11 : remove(18) was correctly done.
+preOrder() :20 8 4 2 6 10 14 12 16 28 24 22 26 34 32 30 36 38 
+inOrder() :2 4 6 8 10 12 14 16 20 22 24 26 28 30 32 34 36 38 
+Make sure deep copies were made: 
+testTree [ 0 ] was copied
+testTree [ 1 ] was copied
+testTree [ 2 ] was copied
+testTree [ 3 ] was copied
+testTree [ 4 ] was copied
+testTree [ 5 ] was copied
+testTree [ 6 ] was copied
+testTree [ 7 ] was copied
+testTree [ 8 ] was copied
+testTree [ 9 ] was copied
+testTree [ 10 ] was copied
+Lab 7 tests successfully completed
